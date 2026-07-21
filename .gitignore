@@ -1,0 +1,72 @@
+# 数据文件 (96MB, 不上传到GitHub)
+futures_data/
+
+# 日志文件
+*_log.txt
+*_log2.txt
+*_output.txt
+*_run.log
+debug.log
+debug_*.txt
+explore_*.txt
+find_*.txt
+explore_indicator_data.txt
+
+# 临时调试脚本
+debug_*.py
+explore_*.py
+find_*.py
+test_conn.py
+
+# 早期版本脚本(已被v2/v3取代)
+collect_quotes.py
+collect_all_contracts.py
+collect_spot_prices.py
+collect_spot_prices_v2.py
+collect_macro.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# 保持以下文件不被忽略
+!data_collection_report.txt
